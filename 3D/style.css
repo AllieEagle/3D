@@ -1,0 +1,12 @@
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.red{
+    width: 300px;
+    background-color: red;
+    height: 300px;
+    transform: perspective(400px) rotateY(45deg);
+}
